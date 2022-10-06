@@ -8,7 +8,7 @@ gem 'aws-sdk-s3', require: false
 gem 'image_processing'
 gem 'mini_magick'
 gem 'active_storage_validations'
-gem 'bcrypt',                  '3.1.13'
+gem 'bcrypt'
 gem 'faker',                   '2.1.2'
 gem 'will_paginate',           '3.1.8'
 gem 'bootstrap-will_paginate', '1.0.0'
