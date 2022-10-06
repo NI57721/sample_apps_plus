@@ -15,7 +15,7 @@ gem 'bootstrap-will_paginate'
 gem 'bootstrap-sass'
 gem 'puma'
 gem 'sass-rails'
-gem 'webpacker',  '4.0.7'
+gem 'webpacker'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'bootsnap', require: false
