@@ -26,6 +26,7 @@ gem 'net-smtp'
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
