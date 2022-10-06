@@ -6,7 +6,7 @@ ruby '2.7.6'
 gem 'rails',      '6.1.4.1'
 gem 'aws-sdk-s3', require: false
 gem 'image_processing'
-gem 'mini_magick',                '4.9.5'
+gem 'mini_magick'
 gem 'active_storage_validations', '0.8.2'
 gem 'bcrypt',                  '3.1.13'
 gem 'faker',                   '2.1.2'
