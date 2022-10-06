@@ -322,7 +322,6 @@ DEPENDENCIES
   image_processing
   importmap-rails
   jbuilder
-  listen
   mini_magick
   minitest
   minitest-reporters
