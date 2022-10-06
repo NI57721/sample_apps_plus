@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.7.6'
+ruby '3.1.2'
 
 gem 'rails',      '6.1.4.1'
 gem 'aws-sdk-s3', require: false
@@ -19,6 +19,7 @@ gem 'webpacker'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'bootsnap', require: false
+gem 'net-smtp'
 
 group :development, :test do
   gem 'sqlite3'
