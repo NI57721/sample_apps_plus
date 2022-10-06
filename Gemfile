@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.1.2'
 
-gem 'rails',      '6.1.4.1'
+gem 'rails',      '7.0.4'
 gem 'aws-sdk-s3', require: false
 gem 'image_processing'
 gem 'mini_magick'
@@ -13,8 +13,11 @@ gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 gem 'bootstrap-sass'
+gem 'sprockets-rails'
 gem 'puma'
-gem 'sass-rails'
+gem 'importmap-rails'
+gem 'turbo-rails'
+gem 'stimulus-rails'
 gem 'webpacker'
 gem 'turbolinks'
 gem 'jbuilder'
@@ -23,12 +26,11 @@ gem 'net-smtp'
 
 group :development, :test do
   gem 'sqlite3'
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'debug', platforms: %i[mri mingw x64_mingw]
 end
 
 group :development do
   gem 'web-console'
-  gem 'listen'
   gem 'spring'
 end
 
