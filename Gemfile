@@ -17,7 +17,7 @@ gem 'puma',       '4.3.6'
 gem 'sass-rails', '5.1.0'
 gem 'webpacker',  '4.0.7'
 gem 'turbolinks', '5.2.0'
-gem 'jbuilder',   '2.9.1'
+gem 'jbuilder'
 gem 'bootsnap', require: false
 
 group :development, :test do
